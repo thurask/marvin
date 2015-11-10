@@ -10,7 +10,7 @@ def readme():
 
 
 setup(name='scp-marvin',
-      version='1.0.0',
+      version='1.0.1',
       description='SCP Wiki entry retrieval script',
       long_description=readme(),
       url='http://github.com/thurask/marvin',
@@ -50,5 +50,5 @@ setup(name='scp-marvin',
       include_package_data=True,
       entry_points={
           'console_scripts': [
-              'marvin=marvin:grab_args']
+              'marvin=marvin.marvin:grab_args']
           })
